@@ -1,0 +1,18 @@
+.task {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  color: #598897;
+  align-items: center;
+}
+
+.task span {
+  flex: 1;
+  padding-left: 10px;
+}
+
+.task .done {
+  text-decoration: line-through;
+  color: #888;
+}

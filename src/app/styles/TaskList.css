@@ -1,0 +1,45 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f1f0e8;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  padding-bottom: 2%;
+}
+
+.filter {
+  margin-bottom: 20px;
+}
+
+.filter button {
+  margin-right: 10px;
+}
+
+.input-container {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.input-container input {
+  flex: 1;
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+}
+
+.tasks {
+  list-style: none;
+  padding: 0;
+}
+
+.tasks li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
